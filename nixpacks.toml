@@ -1,0 +1,5 @@
+[phases.setup]
+nixPkgs = ["nodejs_20", "ffmpeg", "yt-dlp", "libopus", "python3", "gcc"]
+
+[start]
+cmd = "node src/index.js"
